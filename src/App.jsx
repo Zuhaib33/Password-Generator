@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div id="mainContainer" style={{ backgroundColor: bgColor }}>
-      <h1 className=' text-xl mb-20 '>Random Password Generator</h1>
+      <h2 className=' text-20xl mb-20 '>Random Password Generator</h2>
       <div id="container">
 
         <input type="text"
@@ -89,7 +89,8 @@ function App() {
           <label htmlFor="Lenght">Lenght:{range}</label>
           <br />
 
-          <input type="checkbox"
+          <div>
+            <input type="checkbox"
             id='Number'
             //  value={number}
             onChange={() => {
@@ -97,10 +98,12 @@ function App() {
             }
             } />
           <label htmlFor='Number'>Number</label>
+          </div>
 
-          &nbsp;&nbsp;&nbsp;
+          {/* &nbsp;&nbsp;&nbsp; */}
 
-          <input type="checkbox"
+          <div>
+            <input type="checkbox"
             id="character"
             // value={character}
             onChange={() => {
@@ -108,6 +111,7 @@ function App() {
             }
             } />
           <label htmlFor='character' >Character</label>
+          </div>
 
         </div>
         <button
