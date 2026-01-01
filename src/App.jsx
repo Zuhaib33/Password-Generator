@@ -81,10 +81,11 @@ function App() {
           onClick={Copy} >Copy</button>
         <div>
           <input type="range"
-            className='input'
+            
             id="lenght" max={20} min={5}
             value={range}
             onChange={(e) => setRange(e.target.value)} />
+            <br />
           <label htmlFor="Lenght">Lenght:{range}</label>
           <br />
 
