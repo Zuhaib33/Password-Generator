@@ -6,7 +6,7 @@
   width: 100vw;
   font-weight: 500;
   font-weight: bold;
-  font-size: x-large;
+ 
   
 }
 
@@ -16,12 +16,10 @@
   border: 1px solid black;
   height: max-content;
   background-color: beige;
-  margin: auto;
-  margin-top: 200px;
   border-radius: 10px;
   width: 70vw;
-
-
+  margin-top: 50px;
+  margin: auto;
 
 }
 
@@ -43,11 +41,11 @@ input {
 }
 
 .input {
-  width: 70%;
+  width: 80%;
   font-size: x-large;
   font-weight: bold;
   letter-spacing: 2px;
 }
 #lenght{
-  width: 30%;
+  width: 60%;
 }

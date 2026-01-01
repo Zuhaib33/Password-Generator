@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div id="mainContainer" style={{ backgroundColor: bgColor }}>
-      <h1>Random Password Generator</h1>
+      <h1 className=' text-xl mb-20 '>Random Password Generator</h1>
       <div id="container">
 
         <input type="text"
